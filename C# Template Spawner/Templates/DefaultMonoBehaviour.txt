@@ -1,0 +1,42 @@
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    #region Variables
+    
+    #region Public Variables
+    #endregion
+    
+    #region Private Variables
+    #endregion
+    
+    #endregion
+
+    #region Methods
+    
+    #region UnityCallbacks
+    void Awake()
+    {
+        
+    }
+    void Start()
+    {
+        
+    }
+    void Update()
+    {
+        
+    }
+    #endregion
+
+    #region Public Methods
+    #endregion
+
+    #region Private Methods
+    #endregion
+
+    #region Static Methods
+    #endregion
+    
+    #endregion
+}

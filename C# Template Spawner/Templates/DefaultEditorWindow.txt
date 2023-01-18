@@ -1,0 +1,18 @@
+using UnityEngine;
+using UnityEditor;
+
+public class #SCRIPTNAME# : EditorWindow 
+{
+    [MenuItem("TemplateEditorWindow")]
+    private static void ShowWindow()
+	{
+        var window = GetWindow<EditorWindow>();
+        window.titleContent = new GUIContent("TemplateEditorWindow");
+        window.Show();
+    }
+
+    private void OnGUI()
+	{
+        
+    }
+}

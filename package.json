@@ -1,0 +1,22 @@
+{
+  "name": "com.parkinglotgames.csharp-templatespawner",
+  "version": "1.0.0",
+  "displayName": "C# Template Spawner",
+  "description": "An extensible, self-modifying editor extension to create C# files based on custom templates.",
+  "unity": "2022.2",
+  "unityRelease": "2f1",
+  "documentationUrl": "https://github.com/ParkingLotGames/Unity-CSharp-Template-Spawner",
+  "changelogUrl": "https://github.com/ParkingLotGames/Unity-CSharp-Template-Spawner/release",
+  "licensesUrl": "https://github.com/ParkingLotGames/Unity-CSharp-Template-Spawner/blob/main/LICENSE",
+  "keywords": [
+    "scripting",
+    "editor",
+    "productivity"
+  ],
+  "dependencies": {},
+  "author": {
+    "name": "Parking Lot Games",
+    "email": "parkinglotstudiogames@gmail.com",
+    "url": "https://github.com/ParkingLotGames"
+  }
+}
