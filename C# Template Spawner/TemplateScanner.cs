@@ -5,8 +5,8 @@ using System.Linq;
 
 public class TemplateScanner : MonoBehaviour
 {
-    public static string TEMPLATE_FOLDER = "Packages/C# Template Spawner/C# Template Spawner/Templates";
-    const string HANDLER_SCRIPT_PATH = "Packages/C# Template Spawner/C# Template Spawner/TemplateHandler.cs";
+    public static string TEMPLATE_FOLDER = "Packages/com.parkinglotgames.csharp-templatespawner/C# Template Spawner/Templates";
+    const string HANDLER_SCRIPT_PATH = "Packages/com.parkinglotgames.csharp-templatespawner/C# Template Spawner/TemplateHandler.cs";
     static int priority = 60 ;
 
     static string menuItemTemplate =
