@@ -1,6 +1,6 @@
 {
   "name": "com.parkinglotgames.csharp-templatespawner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "C# Template Spawner",
   "description": "An extensible, self-modifying editor extension to create C# files based on custom templates.",
   "unity": "2022.2",
