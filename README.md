@@ -7,4 +7,6 @@
 
 An extensible, self-modifying editor extension to create C# files based on custom templates.
 
-# //TODO: Add summaries, documentation, comments, examples.
+# //TODO
+
+#### Add summaries, documentation, comments, examples.
