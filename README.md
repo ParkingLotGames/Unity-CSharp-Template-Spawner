@@ -6,3 +6,5 @@
 ![Issues](https://img.shields.io/github/issues-raw/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![Pull requests](https://img.shields.io/github/issues-pr-raw/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic)
 
 An extensible, self-modifying editor extension to create C# files based on custom templates.
+
+# //TODO: Add summaries, documentation, comments, examples.
