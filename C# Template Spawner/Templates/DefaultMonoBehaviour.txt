@@ -1,5 +1,7 @@
 using UnityEngine;
-
+///<summary>
+/// Used to 
+///</summary>
 public class #SCRIPTNAME# : MonoBehaviour
 {
     #region Variables
@@ -27,6 +29,10 @@ public class #SCRIPTNAME# : MonoBehaviour
     {
         
     }
+	void Reset()
+    {
+        
+    }
     #endregion
 
     #region Public Methods
@@ -37,6 +43,12 @@ public class #SCRIPTNAME# : MonoBehaviour
 
     #region Static Methods
     #endregion
+
+	#region Async Methods
+	#endregion
+
+	#region Coroutines
+	#endregion
     
     #endregion
 }

@@ -3,11 +3,11 @@ using UnityEditor;
 
 public class #SCRIPTNAME# : EditorWindow 
 {
-    [MenuItem("TemplateEditorWindow")]
+    [MenuItem("Window/TemplateEditorWindow")]
     private static void ShowWindow()
 	{
-        var window = GetWindow<EditorWindow>();
-        window.titleContent = new GUIContent("TemplateEditorWindow");
+        #SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>();
+        window.titleContent = new GUIContent("#SCRIPTNAME#");
         window.Show();
     }
 
