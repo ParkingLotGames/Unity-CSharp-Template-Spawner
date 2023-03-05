@@ -6,7 +6,7 @@ using UnityEngine;
 public static class TemplateHandler
 {
     #region MonoBehaviour
-    [MenuItem("Assets/Create/MonoBehaviour", priority = 60)]
+    [MenuItem("Assets/Create/C#/MonoBehaviour", priority = 60)]
     static void CreateMonoBehaviour()
     {
         string newFileName = "NewMonoBehaviour";
@@ -15,7 +15,7 @@ public static class TemplateHandler
     #endregion
 
     #region EditorWindow
-    [MenuItem("Assets/Create/Editor Window", priority = 61)]
+    [MenuItem("Assets/Create/C#/Editor Window", priority = 61)]
     static void CreateEditorWindow()
     {
         string newFileName = "NewEditorWindow";
@@ -24,7 +24,7 @@ public static class TemplateHandler
     #endregion
 
     #region Enum
-    [MenuItem("Assets/Create/Enum", priority = 62)]
+    [MenuItem("Assets/Create/C#/Enum", priority = 62)]
     static void CreateEnum()
     {
         string newFileName = "NewEnum";
@@ -33,7 +33,7 @@ public static class TemplateHandler
     #endregion
 
     #region ScriptableObject
-    [MenuItem("Assets/Create/ScriptableObject", priority = 63)]
+    [MenuItem("Assets/Create/C#/Scriptable Object", priority = 63)]
     static void CreateScriptableObject()
     {
         string newFileName = "NewScriptableObject";
@@ -42,7 +42,7 @@ public static class TemplateHandler
     #endregion
 
     #region Inspector
-    [MenuItem("Assets/Create/Custom Inspector", priority = 64)]
+    [MenuItem("Assets/Create/C#/Custom Inspector", priority = 64)]
     static void CreateInspector()
     {
         string newFileName = "NewCustomInspector";
@@ -51,7 +51,7 @@ public static class TemplateHandler
     #endregion
 
     #region Struct
-    [MenuItem("Assets/Create/Struct", priority = 65)]
+    [MenuItem("Assets/Create/C#/Struct", priority = 65)]
     static void CreateStruct()
     {
         string newFileName = "NewStruct";
@@ -60,7 +60,7 @@ public static class TemplateHandler
     #endregion
 
     #region Interface
-    [MenuItem("Assets/Create/Interface", priority = 66)]
+    [MenuItem("Assets/Create/C#/Interface", priority = 66)]
     static void CreateInterface()
     {
         string newFileName = "NewInterface";
@@ -69,7 +69,7 @@ public static class TemplateHandler
     #endregion
 
     #region StaticClass
-    [MenuItem("Assets/Create/Static Class", priority = 67)]
+    [MenuItem("Assets/Create/C#/Static Class", priority = 67)]
     static void CreateStaticClass()
     {
         string newFileName = "NewStaticClass";
