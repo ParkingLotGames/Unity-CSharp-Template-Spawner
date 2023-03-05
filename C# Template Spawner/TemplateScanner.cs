@@ -20,7 +20,7 @@ public class TemplateScanner : MonoBehaviour
     }}
     #endregion
 }}// final"; 
-
+     
     [InitializeOnLoadMethod]
     static void AddMenuItems()
     {
