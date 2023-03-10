@@ -5,7 +5,17 @@
 
 ![Issues](https://img.shields.io/github/issues-raw/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![Pull requests](https://img.shields.io/github/issues-pr-raw/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic)
 
-An extensible, self-modifying editor extension to create C# files based on custom templates.
+An extensible, self-generating editor extension to create C# files based on custom templates. It uses code generation to create extra menu entries when new custom templates are added to its template folder.
+
+## Installation 
+### Package manifest
+* Add the following to your manifest.json under "dependencies":
+
+```"com.parkinglotgames.csharp-templatespawner": "1.0.1",```
+### Git URL
+* In Unity, go to Window > Package Manager > "+" button > "Add package from git URL..." and enter:
+```https://github.com/ParkingLotGames/Unity-CSharp-Template-Spawner.git```
+
 
 # //TODO
 
