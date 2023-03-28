@@ -10,6 +10,10 @@ An extensible, self-generating editor extension to create C# files based on cust
 Now 2018 compatible! (Expect bugs), might be compatible with prior versions, can't check atm
 
 ## Installation 
+### Legacy Versions (<2019)
+* Click download as zip
+* Unzip in your Packages folder so that you have a single folder besides your manifest.json
+
 ### Package manifest
 * Add the following to your manifest.json under "dependencies":
 
