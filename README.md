@@ -1,13 +1,13 @@
 # Unity C# Template Spawner
-![Unity Version](https://img.shields.io/badge/Unity-2018.1%2B-blue?style=plastic) ![License](https://img.shields.io/github/license/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![Size](https://img.shields.io/github/repo-size/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![package.json version (branch)](https://img.shields.io/github/package-json/v/ParkingLotGames/Unity-CSharp-Template-Spawner/main?style=plastic) ![Last commit](https://img.shields.io/github/last-commit/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic)
+![Unity Supported Version](https://img.shields.io/badge/Unity-2019.1%2B-blue?style=plastic) ![Unity Minimum Version](https://img.shields.io/badge/Unity-Min2018.1%2B-yellowgreen?style=plastic) ![License](https://img.shields.io/github/license/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![Size](https://img.shields.io/github/repo-size/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![package.json version (branch)](https://img.shields.io/github/package-json/v/ParkingLotGames/Unity-CSharp-Template-Spawner/main?style=plastic) ![Last commit](https://img.shields.io/github/last-commit/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic)
 
 ![package.json dynamic](https://img.shields.io/github/package-json/keywords/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic)
 
 ![Issues](https://img.shields.io/github/issues-raw/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic) ![Pull requests](https://img.shields.io/github/issues-pr-raw/ParkingLotGames/Unity-CSharp-Template-Spawner?style=plastic)
 
-An extensible, self-generating editor extension to create C# files based on custom templates. It uses code generation to create extra menu entries when new custom templates are added to its template folder.
+An extensible, self-generating editor extension to create C# files based on custom templates. It uses code generation to create extra menu entries under Assets/Create when new custom templates are added to its template folder.
 
-Now 2018 compatible! (Expect bugs)
+Now 2018 compatible! (Expect bugs), might be compatible with prior versions, can't check atm
 
 ## Installation 
 ### Package manifest
