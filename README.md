@@ -13,7 +13,7 @@ Now 2018 compatible! (Expect bugs)
 ### Package manifest
 * Add the following to your manifest.json under "dependencies":
 
-```"com.parkinglotgames.csharp-templatespawner": "1.1.0",```
+  ```"com.parkinglotgames.csharp-templatespawner": "1.1.0",```
 ### Git URL
 * In Unity, go to Window > Package Manager > "+" button > "Add package from git URL..." and enter:
 ```https://github.com/ParkingLotGames/Unity-CSharp-Template-Spawner.git```
