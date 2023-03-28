@@ -7,20 +7,20 @@ public class TemplateScanner : MonoBehaviour
 {
     public static string TEMPLATE_FOLDER = "Packages/com.parkinglotgames.csharp-templatespawner/C# Template Spawner/Templates";
     const string HANDLER_SCRIPT_PATH = "Packages/com.parkinglotgames.csharp-templatespawner/C# Template Spawner/TemplateHandler.cs";
-    static int priority = 60 ;
+    static int priority = 60;
 
     static string menuItemTemplate =
-
     @"    #region {0}
     [MenuItem(""Assets/Create/{0}"", priority={4})]
     static void {1}()
     {{
-        string newFileName = ""New{0}"";
-        ProjectWindowUtil.CreateScriptAssetFromTemplateFile(@""{3}"", newFileName +"".cs"");
+        string templatePath = @""{3}"";
+        string fileName = ""New{0}.cs"";
+        CreateScriptFromTemplate(templatePath, fileName);
     }}
     #endregion
-}}// final"; 
-     
+}}// final";
+
     [InitializeOnLoadMethod]
     static void AddMenuItems()
     {
@@ -41,7 +41,7 @@ public class TemplateScanner : MonoBehaviour
             {
                 // Add the new method to the handler script
                 string newMethod = string.Format(menuItemTemplate, templateName, methodName, defaultName, templatePath, priorityString);
-                scriptContent = scriptContent.Replace("}// final"," ");
+                scriptContent = scriptContent.Replace("}// final", " ");
                 scriptContent += "\n" + newMethod;
                 scriptContent = scriptContent.Replace(" Default", " ");
 
